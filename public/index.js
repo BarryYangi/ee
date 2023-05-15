@@ -12,8 +12,8 @@ let oooBtnInt;
 
 oooBtn.addEventListener("mouseenter", () => oooBtnInt = setInterval(() => {
     console.log("a");
-    if (oooBtn.innerText == "oOo") oooBtn.innerText = "OoO";
-    else oooBtn.innerText = "oOo";
+    if (oooBtn.innerText == "eEe") oooBtn.innerText = "EeE";
+    else oooBtn.innerText = "eEe";
 }, 200));
 
 oooBtn.addEventListener("mouseleave", () => {
