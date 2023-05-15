@@ -9,10 +9,10 @@ class OOO {
     }
 
     ver = {
-        "oooo": true
+        "eeee": true
     }
 
-    currVer = "oooo"
+    currVer = "eeee"
 
     removeAndCheckVersion(ooo) {
         if (this.ver[ooo.substring(0, 4)]) {
