@@ -3,20 +3,20 @@
  * V1 of OOO - cloudflare worker to redirect traffic to correct url
  */
 class OOO {
-    enc = ["o", "ο", "о", "ᴏ"]
-    //           006f 03bf 043e 1d0f
+    enc = ["e", "е", "ɵ", "ө"]
     dec = {
-        "o": "0",
-        "ο": "1",
-        "о": "2",
-        "ᴏ": "3"
+        "e": "0",
+        "е": "1",
+        "ɵ": "2",
+        "ө": "3"
     }
+
 
     ver = {
-        "oooo": true
+        "eeee": true
     }
 
-    currVer = "oooo"
+    currVer = "eeee"
 
     removeAndCheckVersion(ooo) {
         if (this.ver[ooo.substring(0, 4)]) {
