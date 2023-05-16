@@ -70,6 +70,9 @@ div.container {
 h1 {
     font-weight: 800;
     font-size: 4em;
+    background-image: linear-gradient(to right, black 0%, #434343 45%, #434343 100%);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 h2 {
